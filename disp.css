@@ -1,0 +1,27 @@
+body{
+	font-family: 'Grandstander', cursive;
+}
+table{
+	margin: auto;
+	border: 4px solid black;
+}
+td{
+	border-left: 4px solid black; 
+}
+.myBtn{
+	border: 5px solid #0b525b;
+	border-radius: 50px;
+	height: 75px;
+	width: 75px;
+	background-color: rgb(241, 220, 167);
+	margin: 3px;
+}
+.txtBlue{
+	color: rgb(14, 0, 171);
+}
+.txtRed{
+	color: rgb(166, 13, 13);
+}
+.txtBold{
+	font-weight: bold;
+}
