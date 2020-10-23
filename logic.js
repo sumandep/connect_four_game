@@ -83,7 +83,7 @@ function diagonalWinCheck() {
         return true;
       }else if (colorMatchCheck(returnColor(row,col), returnColor(row-1,col+1) ,returnColor(row-2,col+2), returnColor(row-3,col+3))) {
         console.log('diag');
-        reportWin(row,col);
+        // reportWin(row,col);
         return true;
       }else {
         continue;
@@ -96,7 +96,7 @@ function diagonalWinCheck() {
 function gameEnd(winningPlayer) {
   for (var col = 0; col < 7; col++) {
     for (var row = 0; row < 7; row++) {
-      $('table').fadeOut('fast');
+      $('button').attr("disabled",true);
       $('p').html('<span class="txtBold">' + winningPlayer + "</span> has won! Refresh your browser to play again!")
     }
   }
